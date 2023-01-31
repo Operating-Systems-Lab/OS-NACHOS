@@ -31,7 +31,7 @@ public class KThread {
     /**
      * Get the current thread.
      *
-     * @return	the current thread.
+     * @return the current thread.
      */
     public static KThread currentThread() {
 	Lib.assertTrue(currentThread != null);
@@ -83,8 +83,8 @@ public class KThread {
     }
 
     /**
-     * Set the name of this thread. This name is used for debugging purposes
-     * only.
+     * Set the name of this thread. This name is used for debugging purposes.
+     * 
      *
      * @param	name	the name to give to this thread.
      * @return	this thread.
